@@ -11,9 +11,9 @@ RUN java -version && native-image --version
 RUN ./native-image.sh
 
 # https://github.com/GoogleContainerTools/distroless/blob/master/base/README.md
-# FROM gcr.io/distroless/static
+# FROM gcr.io/distroless/base
 
-FROM gcr.io/distroless/base
+FROM gcr.io/distroless/static
 
 COPY --from=builder /app/sample-app /app
 
