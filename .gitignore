@@ -1,0 +1,15 @@
+### Java
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# IntellJ
+.idea
+out/
+*.iml
+
+# virtual machine crash logs.
+hs_err_pid*
+

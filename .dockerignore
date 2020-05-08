@@ -1,0 +1,8 @@
+# Ignore these file from Docker context
+# https://docs.docker.com/engine/reference/builder/#dockerignore-file
+.idea
+out/
+*.iml
+*.class
+
+
